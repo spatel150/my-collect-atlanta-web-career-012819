@@ -1,5 +1,5 @@
 def my_collect(array)
-  name_collect = []
+  name_collect = [] 
   i = 0;
   while i < array.length
     name_collect << yield(array[i])
